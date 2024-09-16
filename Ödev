@@ -53,3 +53,18 @@ Başla
 
         Yaz("Sayı asaldır.")
 Bitir 
+
+4)
+Başla
+  Diziyi kullanıcıdan al
+  Boş bir Set oluştur (GörülenElemanlar)
+  
+  For her eleman in Dizi:
+    Eğer eleman GörülenElemanlar içinde ise:
+      "Tekrar eden eleman var" yazdır
+      Bitiş
+    Aksi takdirde:
+      elemanı GörülenElemanlar içine ekle
+
+  "Tekrar eden eleman yok" yazdır
+Bitiş
