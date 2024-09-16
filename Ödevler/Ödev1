@@ -1,0 +1,70 @@
+Sorular
+
+ Soru1: Kulanıcıdan iki sayı alarak bu sayıları toplayan bir programın pseudo kodunu yazın.
+
+Başla
+    Yaz("İlk sayıyı girin: ")
+    oku sayi1
+
+    Yaz("İkinci sayıyı girin: ")
+    oku sayi2
+
+    Yaz("Toplam:",(sayi1+sayi2))
+    Bitir
+
+
+ Soru2: 1'den 100'e kadar olan sayıları toplayan bir programın pseudo kodunu yazın.
+
+Başla
+    başla=1
+    bitiş=100
+
+    toplam=0
+
+    i=başla
+    iken i <= bitiş
+        toplam=toplam+i
+        i=i+1
+    son
+
+    Yaz("Toplam: ",sayıların toplamı)
+Bitir
+
+ 
+ Soru3: Kulanıcıdan alınan bir sayının asal olup olmadığını bulan bir programın pseudo kodunu yazın.
+
+Başla
+    Yaz("Bir sayı girin: ")
+    oku sayi
+
+    Eğer sayi <= 1
+        Yaz("Sayı asal değildir.")
+
+    Aksi Eğer sayi == 2
+        Yaz("Sayı asaldır.")
+
+    Aksi
+        i = 2
+        iken i < sayi
+            Eğer sayi % i == 0
+                Yaz("Sayı asal değildir.")
+                i= i+1
+        son
+
+        Yaz("Sayı asaldır.")
+Bitir 
+
+4)
+Başla
+  Diziyi kullanıcıdan al
+  Boş bir Set oluştur (GörülenElemanlar)
+  
+  For her eleman in Dizi:
+    Eğer eleman GörülenElemanlar içinde ise:
+      "Tekrar eden eleman var" yazdır
+      Bitiş
+    Aksi takdirde:
+      elemanı GörülenElemanlar içine ekle
+
+  "Tekrar eden eleman yok" yazdır
+ve bitiş
